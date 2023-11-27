@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: #f7f1e3; 
+}
+
+h1 {
+    font-family: 'Futura', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+#webcam {
+    width: 20%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+
+#SwitchCam {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #8708a7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#SwitchCam:hover {
+    background-color: #0051a3;
+}
+
+#ClassGraph {
+    width: 600px;  /* Largeur de l'élément en pixels */
+    height: 300px; /* Hauteur de l'élément en pixels */
+    /*more to the right*/
+    margin-left: auto;  
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }

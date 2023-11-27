@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>CIPHAR10 classification algorithm</title>
+        <link rel="stylesheet" href="style.css">
+        <!--script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script-->
+        <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    </head>
+    <body>
+        <h1>images from the CIPHAR10 classes recognition using camera</h1>
+        <h2>airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck</h2>
+        <video id="webcam" playsinline autoplay muted style="transform: scaleX(-1);"></video>
+        <canvas id="preview" width="32" height="32"></canvas>
+        <button id="SwitchCam">switch camera</button>
+        <h3>PredictedClass</h3>
+        <div id="predictedClass">Waiting for magic to happen...</div>
+        <div id="ClassGraph"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
